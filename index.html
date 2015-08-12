@@ -8,12 +8,18 @@
         href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 </head>
 <body>
+  <div class="bs-docs-header">
+    <div class="container">
+      <h1> Reading Stuff </h1>
+    </div>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-md-3">
-        <nav class="bs-docs-sidebar">
+        <nav class="bs-docs-sidebar affix">
           <ul class="nav bs-docs-sidenav">
-            <li class>
+            <!-- git tips -->
+            <li>
               <a href="#gitTips">Git Tips</a>
               <ul class="nav">
                 <li>
@@ -21,6 +27,8 @@
                 </li>
               </ul>
             </li>
+
+            <!-- c++ -->
             <li>
               <a href="#cplusplus11"> C++ 11 </a>
               <ul class="nav">
@@ -30,12 +38,40 @@
                 <li>
                   <a href="#cplusplus11privatestaticmember"> private static member initialize </a>
                 </li>
+                <li>
+                  <a href="#stdvector"> std::vector </a>
+                </li>
+                <li>
+                  <a href="#c11misc"> C++ Misc </a>
+                </li>
               </ul>
             </li>
+
+            <!-- deep learning -->
+            <li>
+              <a href="#deeplearning"> Deep Learning </a>
+              <ul class="nav">
+                <li>
+                  <a href="#dl1"> Restricted Boltzman Machines </a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- algorithms -->
+            <li>
+              <a href="#algorithm"> Algoritm </a>
+              <ul class="nav">
+                <li>
+                  <a href="#alg1"> Kalman filter </a>
+                </li>
+              </ul>
+            </li>
+
           </ul>
         </nav>
       </div>
       <div class="col-md-9">
+        <!-- git tips -->
         <div class="bs-docs-section">
           <h1 class="page-header"> 
             <a class="anchorjs-link" href="#gitTips"></a>
@@ -52,6 +88,7 @@
             </ul>
         </div>
       
+        <!-- c++ -->
         <div class="bs-docs-section">
           <h1 class="page-header"> 
             <a class="anchorjs-link" href="#cplusplus11"></a>
@@ -77,12 +114,18 @@
               <a href="http://blogs.msdn.com/b/vcblog/archive/2009/02/03/rvalue-references-c-0x-features-in-vc10-part-2.aspx">
                   msdn - rvalue references </a>
               </li>
+            <li>
+              <a href="http://www.artima.com/cppsource/rvalue.html"> A brief introduction to rvalue reference </a>
+              </li>
+            <li>
+              <a href="http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2006/n2027.html"> a brief introduction to rvalue reference 2 </a>
+              </li>
             </ul>
           <h2>
             <a class="anchorjs-link" href="#cplusplus11privatestaticmember"></a>
             Initializing private static members 
             </h2>
-          <ul style="list-style-type:squre">
+          <ul style="list-style-type:square">
             <li>
               <a href="http://stackoverflow.com/questions/185844/initializing-private-static-members">
                 how to initialize private static member of a class </a>
@@ -91,7 +134,77 @@
           <p>
             the initialization should be in source file: int foo::i = 0;
             </p>
+          <h2>
+            <a class="anchorjs-link" href="#stdvector"></a>
+            std::vector
+            </h2>
+          <ul style="list-style-type:square">
+            <li>
+              <a href="http://www.gahcep.com/cpp-internals-stl-vector-part-1/">
+                std::vector's defintion, growth factor </a>
+            </li>
+            <li>
+              <a href="http://www.gahcep.com/cpp-internals-stl-vector-part-2/">
+                std::vector's emplace_back </a>
+            </li>
+            <li>
+              <a href="http://www.gahcep.com/cpp-internals-stl-vector-part-3/">
+                std::vector's allocator </a>
+            </li>
+          </ul>
+          <h2>
+            <a class="anchorjs-link" href="#c11misc"></a>
+            C++ Misc
+            </h2>
+          <ul style="list-style-type:square">
+            <li>
+              <a href="https://realm.io/news/how-we-beat-cpp-stl-binary-search/">
+                Beat C++ STL Binary Search </a>
+              </li>
+            <li>
+              <a href="https://news.ycombinator.com/item?id=10042195">
+                Beat C++ STL Binary Search comments </a>
+            </li>
+            <li>
+              <a href="https://github.com/facebook/folly">
+                open-source c++ library developed and used at Facebook </a>
+            </li>
+          </ul>
         </div>
+
+        <!-- deep learning -->
+        <div class="bs-docs-section">
+          <h1 class="page-header">
+            <a class="anchorjs-link" href="#deeplearning"></a>
+            Deep Learning </h1>
+          <h2>
+            <a class="anchorjs-link" href="#dl1"></a>
+            Restricted Boltzman Machines </h2>
+          <ul style="list-style-type:square">
+            <li>
+              <a href="http://deeplearning4j.org/restrictedboltzmannmachine.html"> A beginner's guide </a>
+            </li>
+            <li>
+              <a href="https://news.ycombinator.com/item?id=10017588"> hacker news' comments </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- algorithms -->
+        <div class="bs-docs-section">
+          <h1 class="page-header">
+            <a class="anchorjs-link" href="#algorithm"></a>
+            Algorithms </h1>
+          <h2>
+            <a class="anchorjs-link" href="#alg1"></a>
+            Kalman filter </h2>
+          <ul style="list-style-type:square">
+            <li>
+              <a href="http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/"> How a Kalman filter works </a>
+            </li>
+          </ul>
+        </div>
+
       </div>
     </div>
   </div>
