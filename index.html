@@ -5,34 +5,95 @@
   <title> Useful links </title>
   <!-- Add some style to your site, see http://getbootstrap.com for details -->
   <link rel="stylesheet"
-  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 </head>
 <body>
-  <h4> Git tips </h4>
-  <ul style="list-style-type:square">
-    <li>
-      <a href="http://stackoverflow.com/questions/3903817/pull-new-updates-from-original-github-repository-into-forked-github-repository">
-	pull new updates from original forked Repo </a>
-    </li>
-  </ul>
-  <h4> C++ Rvalue Reference </h4>
-  <ul style="list-style-type:square">
-    <li>
-      <a href="https://channel9.msdn.com/Shows/Going+Deep/Cpp-and-Beyond-2012-Scott-Meyers-Universal-References-in-Cpp11">
-	vedio: Rvalue Reference -- Universal References</a>
-    </li>
-    <li>
-      <a href="https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers">
-	article: Rvalue Reference -- Universal References</a>
-    </li>
-    <li>
-      <a href="http://thbecker.net/articles/rvalue_references/section_01.html">
-	Rvalue Reference Explained </a>
-    </li>
-    <li>
-      <a href="http://blogs.msdn.com/b/vcblog/archive/2009/02/03/rvalue-references-c-0x-features-in-vc10-part-2.aspx">
-	msdn - rvalue references </a>
-    </li>
-  </ul>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <nav class="bs-docs-sidebar">
+          <ul class="nav bs-docs-sidenav">
+            <li class>
+              <a href="#gitTips">Git Tips</a>
+              <ul class="nav">
+                <li>
+                  <a href="#gittips1"> pull new updates </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#cplusplus11"> C++ 11 </a>
+              <ul class="nav">
+                <li>
+                  <a href="#cplusplus11rvaluereference"> Rvalue Reference </a>
+                </li>
+                <li>
+                  <a href="#cplusplus11privatestaticmember"> private static member initialize </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-md-9">
+        <div class="bs-docs-section">
+          <h1 class="page-header"> 
+            <a class="anchorjs-link" href="#gitTips"></a>
+            Git tips </h1>
+          <h2>
+            <a href="#gittips1"></a>
+            pull new updates
+            </h2>
+          <ul style="list-style-type:square">
+            <li>
+              <a href="http://stackoverflow.com/questions/3903817/pull-new-updates-from-original-github-repository-into-forked-github-repository">
+                  pull new updates from original forked Repo </a>
+              </li>
+            </ul>
+        </div>
+      
+        <div class="bs-docs-section">
+          <h1 class="page-header"> 
+            <a class="anchorjs-link" href="#cplusplus11"></a>
+            C++ 11 </h1>
+          <h2>
+            <a class="anchorjs-link" href="#cplusplus11rvaluereference"></a>
+            C++ Rvalue Reference
+            </h2>
+          <ul style="list-style-type:square">
+            <li>
+              <a href="https://channel9.msdn.com/Shows/Going+Deep/Cpp-and-Beyond-2012-Scott-Meyers-Universal-References-in-Cpp11">
+                vedio: Rvalue Reference -- Universal References</a>
+              </li>
+            <li>
+              <a href="https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers">
+                article: Rvalue Reference -- Universal References</a>
+              </li>
+            <li>
+              <a href="http://thbecker.net/articles/rvalue_references/section_01.html">
+                Rvalue Reference Explained </a>
+              </li>
+            <li>
+              <a href="http://blogs.msdn.com/b/vcblog/archive/2009/02/03/rvalue-references-c-0x-features-in-vc10-part-2.aspx">
+                  msdn - rvalue references </a>
+              </li>
+            </ul>
+          <h2>
+            <a class="anchorjs-link" href="#cplusplus11privatestaticmember"></a>
+            Initializing private static members 
+            </h2>
+          <ul style="list-style-type:squre">
+            <li>
+              <a href="http://stackoverflow.com/questions/185844/initializing-private-static-members">
+                how to initialize private static member of a class </a>
+              </li>
+            </ul>
+          <p>
+            the initialization should be in source file: int foo::i = 0;
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
