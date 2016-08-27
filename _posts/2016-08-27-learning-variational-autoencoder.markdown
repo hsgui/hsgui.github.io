@@ -8,7 +8,7 @@ categories: deeplearning autoencoder
 ## what's the variational autoencoder ##
 - [Explain variational autoencoder][variational-autoencoder-explain]
 - [variational autoencoder][variational-autoencoder]
-- [generate large images from latent vector][generate-larege-images]
+- [generate large images from latent vector][generate-large-images]
 
 [variational-autoencoder-explain]: http://kvfrans.com/variational-autoencoders-explained/
 [variational-autoencoder]: https://jmetzen.github.io/2015-11-27/vae.html
