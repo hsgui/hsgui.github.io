@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learning notes about variational autoencoder
+title: "Learning notes about variational autoencoder"
 date: 2016-08-27 13:00:00 +0800
 categories: deeplearning autoencoder
 ---
