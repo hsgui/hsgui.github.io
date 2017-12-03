@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Pearls"
+date: 2016-11-30 16:00:00 +0800
+---
+
+## x86 Assembly Language ##
+- [Learning to read x86 Assembly Language][read-x86]
+
+[read-x86]: http://patshaughnessy.net/2016/11/26/learning-to-read-x86-assembly-language
