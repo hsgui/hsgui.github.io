@@ -39,51 +39,61 @@
 
 \section{教育背景}
 \cventry{2011.9 -- 2014.4}{学术性硕士}{北京邮电大学网络技术研究院}{}{}{计算机科学与技术专业}
-\cventry{2007.9 -- 2011.6}{工学学士}{北京邮电大学计算机科学与技术学院}{成绩前5\%}{}{计算机科学与技术专业}
+\cventry{2007.9 -- 2011.6}{工学学士}{北京邮电大学计算机科学与技术学院}{成绩前5\%，保送研究生}{}{计算机科学与技术专业}
 
 \section{工作背景}
 \cventry{2014.4 -- 至今}{软件开发工程师}{微软中国ASG}{苏州}{}{
-	\begin{itemize}
-	\item 2014.4 -- 2014.9: Conversation Understanding Toolkit Team.
-		\begin{itemize}
-		\item 简介： 开发语言模型的训练、测试及模型修正等工具，便于语言模型的生成、调试及优化
-		\item 负责： CUTrain、CUTester、CUHotfixTool的升级, CUPhoneTester、CUPhoto App(Ignite Demo App)、ActiveLearning Tool开发
-		\end{itemize}
-	\item 2014.9 -- 2015.3: Index Serve Capacity Engineering Team.
-		\begin{itemize}
-		\item 简介： 周期性对Bing进行压力测试，日志等数据的采集，以便监控系统的容量及抗压能力
-		\item 负责： 计算Bing stack各层的时延及负载容量，将整个压力测试重构到分布式的自动调度平台上
-		\end{itemize}
-	\item 2015.3 -- 至今: Index Serve PerDocIndex Team.
-		\begin{itemize}
-		\item 简介： Web Page的正排索引，该索引中包含文档的各种属性，用来提升搜索速度和相关度，对性能非常敏感
-		\item 负责： 增量式更新正排索引，独立正排索引服务，升级索引文件格式，以及将PDI升级为KV存储(支持point update)
-		\end{itemize}
-	\end{itemize}
+    \begin{itemize}
+    \item 2016.7 -- 至今: PDI on ObjectStore, Index Serve PerDocIndex Team.
+        \begin{itemize}
+        \item 简介： 将正排索引数据写入K-V Store，并从K-V Store服务正排索引数据. 
+        \item 负责： 整个写入的服务，以及UIS数据服务。重点包括数据的正确性，完整性，新的写入策略（协同、增量），控制在线写入时对在线读的影响，以及性能调优
+        \end{itemize}
+    \item 2016.2 -- 2016.6: PDI format vNext, Index Serve PerDocIndex Team.
+        \begin{itemize}
+        \item 简介： 参照字体文件格式，增强PDI format可扩展性
+        \item 负责： 整个项目的开发与测试。重点包括性能调优、测试以及项目上线步骤（包括紧急处理）
+        \end{itemize}
+    \item 2015.4 -- 2016.1: PDI for Yukon, Index Serve PerDocIndex Team.
+        \begin{itemize}
+        \item 简介： 下一代索引更新系统，提高索引的实时性及更新效率
+        \item 负责： PDI新的写入接口。重点包括索引数据的去重，有效性检验以及大规模测试
+        \end{itemize}
+    \item 2014.9 -- 2015.3: Index Serve Capacity Engineering Team.
+        \begin{itemize}
+        \item 简介： 周期性对Bing进行压力测试，基于日志、性能指标等数据，监控系统的容量及抗压能力
+        \item 负责： 分析Bing stack各层的时延及负载容量；将整个压力测试系统迁移到分布式的自动调度平台上
+        \end{itemize}
+    \item 2014.4 -- 2014.9: Conversation Understanding Toolkit Team.
+        \begin{itemize}
+        \item 简介： 开发语言模型的训练、测试及模型修正等工具，便于语言模型的生成、调试及优化
+        \item 负责： 升级已有的CUTrain、CUTester、CUHotfixTool等工具，以及开发CUPhoneTester、CUPhoto App(Ignite Demo App)、ActiveLearning Tool
+        \end{itemize}
+    \end{itemize}
 }
 
-\section{实习背景}
-\cventry{2011.3 -- 2011.9}{软件测试开发工程师}{百度质量部}{北京}{}{
-	\begin{itemize}
-	\item “百度身边”的自动化测试开发，包括跟进产品功能开发进度，制定并实施测试计划；
-	\end{itemize}}
-	\cventry{2013.7 -- 2013.12}{软件开发工程师}{微软中国STCA}{北京}{}{
-	\begin{itemize}
-	\item Windows Phone版“必应词典”APP的电台、背单词功能的开发与测试
-	\end{itemize}}
+\newpage
 
 \section{研究生项目背景}
-\cventry{2011.9 -- 2012.6}{移动社会搜索的问答系统}{Nokia合作项目}{}{}{
-    \begin{itemize}
-    \item 简介：在移动平台上，基于用户社交关系的实时的、可信赖的问答服务；
-    \item 负责：系统后台的搭建，以及后台接口的设计与实现；
-    \item 相关技术：JAVA、Spring、Mybatis、MySql、Maven；
-    \end{itemize}}
 \cventry{2012.9 -- 2013.12}{社会化媒体的情感倾向性分析系统}{自选项目}{}{}{
     \begin{itemize}
     \item 简介：使用观点挖掘、情感分析等数据分析技术，分析微博中有关热门话题的微博主观色彩，统计话题的总体情感色彩;
-    \item 负责：系统的整体设计与实现，包括系统的后台算法实现以及前端页面的展示；
-    \item 相关技术：前端Bootstrap、HighCharts、jQuery等，后台Java、Spring、Maven等；
+    \item 负责：系统的整体设计与实现，包括系统的后台算法实现以及前端页面的展示 （前端Bootstrap、HighCharts、jQuery等，后台Java、Spring、Maven）
+    \end{itemize}}
+\cventry{2011.9 -- 2012.6}{移动社会搜索的问答系统}{Nokia合作项目}{}{}{
+    \begin{itemize}
+    \item 简介：在移动平台上，基于用户社交关系的实时的、可信赖的问答服务；
+    \item 负责：系统后台的搭建，以及后台接口的设计与实现（JAVA、Spring、Mybatis、MySql、Maven）
+    \end{itemize}}
+
+\section{实习背景}
+\cventry{2013.7 -- 2013.12}{软件开发工程师}{微软中国STCA}{北京}{}{
+    \begin{itemize}
+    \item Windows Phone版“必应词典”APP的电台、背单词功能的开发与测试
+    \end{itemize}}
+\cventry{2011.3 -- 2011.9}{软件测试开发工程师}{百度质量部}{北京}{}{
+    \begin{itemize}
+    \item “百度身边”的自动化测试开发，包括跟进产品功能开发进度，制定并实施测试计划；
     \end{itemize}}
 
 \section{研究论文}
@@ -109,4 +119,3 @@
 \cvlistitem{担任研究中心班主任}
 
 \end{document}
-
