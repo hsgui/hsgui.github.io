@@ -1,0 +1,99 @@
+% available at http://www.latex-project.org/lppl/.
+
+% ref: https://www.zhihu.com/question/22906637/answer/638561415
+%!TEX program = xelatex
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt,letterpaper,sans,color]{moderncv}
+% possible options include:
+% font size:	('10pt', '11pt' and '12pt'),
+% paper size:	('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape')
+% font family:	('sans' and 'roman')
+
+% moderncv theme
+\moderncvstyle{classic}
+% ‘casual’, ‘classic’, ‘oldstyle’ and ’banking’
+\moderncvcolor{green}
+% options: 'blue' (default), 'orange', 'green', 'red', 'purple' and 'grey'
+
+%% encoding
+\usepackage{xeCJK}
+
+\usepackage[scale=0.85]{geometry}
+\setlength{\hintscolumnwidth}{3cm}
+%\setlength{\makecvtitlenamewidth}{10cm}
+% for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\recomputelengths
+
+% 个人信息
+\firstname{}
+\familyname{黄水桂}
+\mobile{18551200993}
+\email{hsguimail@163.com}
+\social[github]{hsgui}
+\photo[64pt][0.4pt]{picture2.jpg}
+%'64pt' is the height the picture must be resized to,
+% 0.4pt is the thickness of the frame around it (put it to 0pt for no frame)
+% 'picture' is the name of the picture file
+
+\begin{document}
+
+\maketitle
+
+\section{工作背景}
+\cventry{2018.4 -- 至今}{高级后台开发工程师（T11）}{广点通广告检索组}{腾讯深圳总部}{}{
+    \begin{itemize}
+        \item 2019.5 -- 至今：广告离线索引、在线检索系统
+            \begin{itemize}
+                \item 简介：为腾讯系各大流量方提供低时延的离线数据通道、高性能的在线广告检索服务
+                \item 负责：增量广告索引到分布式广告索引，使新广告在5分钟内可播放；支撑千万级的创意检索；
+                \item 绩效：四星、五星
+            \end{itemize}
+        \item 2018.4 -- 2019.5：广告增量数据流发布系统
+            \begin{itemize}
+                \item 简介：高可用、可扩展、低延迟的广告离线数据处理，为广告在线检索的粗排提供准实时数据
+                \item 负责：增量处理广告数据变更，优化广告数据离线处理延迟
+                \item 绩效：五星
+            \end{itemize}
+    \end{itemize}
+}
+\cventry{2014.4 -- 2018.4}{搜索平台开发工程师（62)}{Bing搜索后台（IndexServe）}{苏州微软}{}{
+    \begin{itemize}
+    \item 2014.10 -- 2018.4: 正排索引存储与在线服务
+        \begin{itemize}
+        \item 简介： 千亿级网页和多媒体的分布式数据存储与在线检索服务，为Bing搜索的粗排服务提供数据支撑
+        \item 负责： 下一代网页正排索引格式以及存储服务，使得正排索引格式具有高可扩展性、增量量更新
+        \end{itemize}
+    \item 2014.4 -- 2014.9: Cortana语言模型的工具开发
+        \begin{itemize}
+        \item 负责： 升级已有的模型训练、测试等工具，以及开发CUPhoneTester、CUPhoto Demo App、ActiveLearning Tool
+        \end{itemize}
+    \end{itemize}
+}
+
+\section{专业知识}
+\cvlistitem{熟悉C、C++、C\#、Java}
+\cvlistitem{熟悉常用数据结构及算法}
+\cvlistitem{了解Python脚本语言; 了解Java Web开发以及前端开发技术； 了解Linux；}
+\cvlistitem{对机器学习、高性能计算、分布式计算等比较感兴趣;}
+
+\section{教育背景}
+\cventry{2011.9 -- 2014.4}{学术性硕士}{北京邮电大学网络技术研究院}{}{}{计算机科学与技术专业}
+\cventry{2007.9 -- 2011.6}{工学学士}{北京邮电大学计算机科学与技术学院}{成绩前5\%，保送研究生}{}{计算机科学与技术专业}
+
+\section{研究论文}
+\cvlistitem{Huang, Shuigui, et al. "Polarity Identification of Sentiment Words Based on Emoticons." Computational Intelligence and Security (CIS), 2013 9th International Conference on. IEEE, 2013.}
+
+\section{外语技能}
+\cvitemwithcomment{英语}{CET-6 -- 527, CET-4 -- 526}{具有良好的英文阅读能力}
+
+\section{在校所获奖励}
+\cvitem{2012}{北京邮电大学 \textbf{优秀研究生干部}}
+\cvitem{2009}{全国大学生数学建模竞赛 \textbf{北京市三等奖}}
+\cvitem{2008}{北京市大学生数学竞赛 \textbf{甲组三等奖}}
+\cvitem{2011,2012}{北京邮电大学 \textbf{研究生一等奖学金}}
+\cvitem{2008,2009}{\textbf{国家励志奖学金}}
+
+\end{document}
