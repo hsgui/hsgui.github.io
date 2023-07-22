@@ -5,22 +5,22 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 
-\documentclass[10pt,letterpaper,sans,color]{moderncv}
+% wiki: https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/moderncv/manual/moderncv_userguide.pdf
+\documentclass[a4paper,11pt,sans,color]{moderncv}
+
 % possible options include:
 % font size:	('10pt', '11pt' and '12pt'),
 % paper size:	('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape')
 % font family:	('sans' and 'roman')
 
 % moderncv theme
-\moderncvstyle{classic}
-% ‘casual’, ‘classic’, ‘oldstyle’ and ’banking’
-\moderncvcolor{green}
-% options: 'blue' (default), 'orange', 'green', 'red', 'purple' and 'grey'
+\moderncvtheme[green]{classic}
 
 %% encoding
 \usepackage{xeCJK}
 
-\usepackage[scale=0.85]{geometry}
+\usepackage[scale=0.9]{geometry}
+
 \setlength{\hintscolumnwidth}{3cm}
 %\setlength{\makecvtitlenamewidth}{10cm}
 % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
@@ -30,7 +30,6 @@
 % 个人信息
 \firstname{}
 \familyname{黄水桂}
-\mobile{18551200993}
 \email{hsguimail@163.com}
 \social[github]{hsgui}
 \photo[64pt][0.4pt]{picture2.jpg}
@@ -74,20 +73,17 @@
 }
 
 \section{专业知识}
-\cvlistitem{熟悉C、C++、C\#、Java}
+\cvlistitem{熟悉C、C++，了解Java、C\#、Python等}
 \cvlistitem{熟悉常用数据结构及算法}
-\cvlistitem{了解Python脚本语言; 了解Java Web开发以及前端开发技术； 了解Linux；}
-\cvlistitem{对机器学习、高性能计算、分布式计算等比较感兴趣;}
+\cvlistitem{对机器学习、高性能计算、分布式计算等比较感兴趣}
 
 \section{教育背景}
 \cventry{2011.9 -- 2014.4}{学术性硕士}{北京邮电大学网络技术研究院}{}{}{计算机科学与技术专业}
 \cventry{2007.9 -- 2011.6}{工学学士}{北京邮电大学计算机科学与技术学院}{成绩前5\%，保送研究生}{}{计算机科学与技术专业}
 
-\section{研究论文}
-\cvlistitem{Huang, Shuigui, et al. "Polarity Identification of Sentiment Words Based on Emoticons." Computational Intelligence and Security (CIS), 2013 9th International Conference on. IEEE, 2013.}
-
-\section{外语技能}
-\cvitemwithcomment{英语}{CET-6 -- 527, CET-4 -- 526}{具有良好的英文阅读能力}
+\section{论文专利}
+\cvlistitem{"Polarity Identification of Sentiment Words Based on Emoticons." Computational Intelligence and Security (CIS), 2013 9th International Conference on. IEEE, 2013.}
+\cvlistitem{"https://www.patentguru.com/cn/CN113409064A". 广告索引更新方法、广告推送方法、装置、介质及设备}
 
 \section{在校所获奖励}
 \cvitem{2012}{北京邮电大学 \textbf{优秀研究生干部}}
