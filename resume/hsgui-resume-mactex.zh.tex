@@ -18,10 +18,11 @@
 
 %% encoding
 \usepackage{xeCJK}
-
+\usepackage{fontspec,xltxtra,xunicode}
 \usepackage[scale=0.9]{geometry}
 
-\setlength{\hintscolumnwidth}{3cm}
+% 设置左侧横线的长度
+\setlength{\hintscolumnwidth}{3.2cm}
 %\setlength{\makecvtitlenamewidth}{10cm}
 % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
@@ -42,44 +43,40 @@
 \maketitle
 
 \section{工作背景}
-\cventry{2018.4 -- 至今}{高级后台开发工程师（T11）}{广点通广告检索组}{腾讯深圳总部}{}{
+\cventry{2018.4 -- 至今}{T9 - T11}{广告检索}{腾讯深圳总部}{}{
     \begin{itemize}
-        \item 2019.5 -- 至今：广告离线索引、在线检索系统
+        \item 2019.5 -- 至今：广告离线索引、在线召回系统
             \begin{itemize}
-                \item 简介：为腾讯系各大流量方提供低时延的离线数据通道、高性能的在线广告检索服务
-                \item 负责：增量广告索引到分布式广告索引，使新广告在5分钟内可播放；支撑千万级的创意检索；
+                \item 简介：腾讯流量的广告召回中台，拥有低时延的离线索引通道、高性能的在线广告召回服务
+                \item 负责：主导离线索引架构升级，包括广告增量索引、分布式广告索引、minibatch索引，以及进行中的流批一体倒排索引，批式5分钟以内，流式30s内
                 \item 绩效：四星、五星
             \end{itemize}
         \item 2018.4 -- 2019.5：广告增量数据流发布系统
             \begin{itemize}
-                \item 简介：高可用、可扩展、低延迟的广告离线数据处理，为广告在线检索的粗排提供准实时数据
+                \item 简介：高可用、可扩展、低延迟的广告离线数据发布，为广告在线检索提供准实时增量数据
                 \item 负责：增量处理广告数据变更，优化广告数据离线处理延迟
                 \item 绩效：五星
             \end{itemize}
     \end{itemize}
 }
-\cventry{2014.4 -- 2018.4}{搜索平台开发工程师（62)}{Bing搜索后台（IndexServe）}{苏州微软}{}{
+\cventry{2014.4 -- 2018.4}{59 - 62}{Bing搜索后台（IndexServe）}{苏州微软}{}{
     \begin{itemize}
-    \item 2014.10 -- 2018.4: 正排索引存储与在线服务
+    \item 2014.4 -- 2018.4: 正排索引与在线服务
         \begin{itemize}
-        \item 简介： 千亿级网页和多媒体的分布式数据存储与在线检索服务，为Bing搜索的粗排服务提供数据支撑
-        \item 负责： 下一代网页正排索引格式以及存储服务，使得正排索引格式具有高可扩展性、增量量更新
-        \end{itemize}
-    \item 2014.4 -- 2014.9: Cortana语言模型的工具开发
-        \begin{itemize}
-        \item 负责： 升级已有的模型训练、测试等工具，以及开发CUPhoneTester、CUPhoto Demo App、ActiveLearning Tool
+        \item 简介： 千亿级网页和多媒体的数据存储与在线检索服务，为Bing搜索的粗排提供高效数据查询接口
+        \item 负责： 升级网页正排索引格式，存算分离，使正排索引具有高可扩展性、支持增量更新
         \end{itemize}
     \end{itemize}
 }
 
-\section{专业知识}
-\cvlistitem{熟悉C、C++，了解Java、C\#、Python等}
-\cvlistitem{熟悉常用数据结构及算法}
-\cvlistitem{对机器学习、高性能计算、分布式计算等比较感兴趣}
-
 \section{教育背景}
 \cventry{2011.9 -- 2014.4}{学术性硕士}{北京邮电大学网络技术研究院}{}{}{计算机科学与技术专业}
 \cventry{2007.9 -- 2011.6}{工学学士}{北京邮电大学计算机科学与技术学院}{成绩前5\%，保送研究生}{}{计算机科学与技术专业}
+
+\section{专业知识}
+\cvlistitem{熟悉C++，了解Java、C\#、Python等}
+\cvlistitem{熟悉常用数据结构及算法}
+\cvlistitem{对机器学习、高性能计算、分布式计算等比较感兴趣}
 
 \section{论文专利}
 \cvlistitem{"Polarity Identification of Sentiment Words Based on Emoticons." Computational Intelligence and Security (CIS), 2013 9th International Conference on. IEEE, 2013.}
