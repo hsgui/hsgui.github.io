@@ -7,18 +7,21 @@
 
 # site wide defaults
 # Site settings
-title: Shuigui & Learning
+title: Shuigui's Blog
 email: hsguidemail@gmail.com
 
 author: Shuigui
 
-description: > # this means to ignore newlines until "baseurl:"
-  Some interesting learning notes, including deep learning, machine learning,
-  big data, c++, Hashkell, html, css, javascript -- I am a programmer
+description: >
+  A personal tech blog sharing learning notes on deep learning, machine learning,
+  C++, and web development. Plus useful developer tools.
 baseurl: # the subpath of your site, e.g. /blog
 url: "https://hsgui.github.io" # the base hostname & protocol for your site
 twitter_username: HShuigui
 github_username:  hsgui
+
+# SEO
+lang: en
 
 # Build settings
 markdown: kramdown
