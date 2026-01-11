@@ -328,6 +328,7 @@
                 const gist = await response.json();
                 const gistId = gist.id;
                 const previewUrl = `https://gistpreview.github.io/?${gistId}`;
+                const hostUrl = `https://gisthost.github.io/?${gistId}`;
                 const gistUrl = gist.html_url;
 
                 // Show result
@@ -341,7 +342,8 @@
                 resultDiv.innerHTML = `
                     <strong>Gist created!</strong><br>
                     <a href="${gistUrl}" target="_blank">View Gist: ${gistId}</a><br>
-                    <a href="${previewUrl}" target="_blank">Preview: ${previewUrl}</a>
+                    <a href="${previewUrl}" target="_blank">Preview: gistpreview.github.io</a><br>
+                    <a href="${hostUrl}" target="_blank">Host: gisthost.github.io</a>
                     <button class="copy-btn" style="margin-top: 8px;" onclick="navigator.clipboard.writeText('${previewUrl}'); this.textContent='Copied!';">Copy Preview URL</button>
                 `;
 
