@@ -14,6 +14,11 @@ This is a personal blog for sharing learning notes on various programming and te
 - Big Data
 - Web Technologies (HTML, CSS, JavaScript)
 
+## Tools
+
+- **[JSON to YAML](/json2yaml.html)** - Convert JSON to YAML instantly
+- **[ClipGist](/clipgist.html)** - Paste clipboard content and share to GitHub Gist with one click
+
 ## Tech Stack
 
 - **Static Site Generator:** Jekyll
